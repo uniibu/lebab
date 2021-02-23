@@ -53,7 +53,7 @@
     "estraverse": "^4.2.0",
     "f-matches": "^1.1.0",
     "glob": "^7.1.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "recast": "^0.19.1"
   },
   "devDependencies": {
