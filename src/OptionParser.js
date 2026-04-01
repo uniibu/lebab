@@ -86,7 +86,7 @@ export default class OptionParser {
         'Did you forget to quote the --replace parameter?';
     }
     if (fs.existsSync(this.opts().replace) && fs.statSync(this.opts().replace).isDirectory()) {
-      return path.join(this.opts().replace, '/**/*.js');
+      return path.join(this.opts().replace, '**/*.js');
     }
     return this.opts().replace;
   }
